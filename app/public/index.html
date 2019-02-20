@@ -9,6 +9,13 @@
   <link rel="stylesheet" href="/app/public/styles/mainstyle.css">
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="#!/ingredients">Ingredients</a></li>
+      <li><a href="#!/" id="home-button">Home</a></li>
+      <li><a href="#!/recipes">Recipes</a></li>
+    </ul>
+  </nav>
     <ng-view></ng-view>
     <!-- start scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
@@ -16,6 +23,8 @@
     <script src="./scripts/module.js"></script>
     <script src="./scripts/config/config.js"></script>
     <script src="./scripts/components/welcome.js"></script>
+    <script src="./scripts/components/ingredients.js"></script>
+    <script src="./scripts/components/recipes.js"></script>
 
   
 </body>
