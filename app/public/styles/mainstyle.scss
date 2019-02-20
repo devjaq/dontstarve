@@ -5,44 +5,60 @@ $tan: #CBB890;
 
 html {
   box-sizing: border-box;
-}
-
-body {
-  font-family: 'Oswald';
-
-  .recipe-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 8px;
-    border: 3px solid dimgrey;
-    border-radius: 8px;
-    padding: 10px;
-
-  }
-}
-
-ul {
-  list-style-type: none;
-}
-
-nav {
-  ul {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding: 0;
-
-    li a {
-      width: 350px;
-      height: 70px;
-      background-color: $tan;
-      margin: 9px;
+  
+  body {
+    background: dimgrey;
+    font-family: 'Oswald';
+    
+    ul {
+      padding: 0;
+    }
+    
+    a {
+      text-decoration: none;
+      color: $reddish;
+    }
+    
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 8px;
       border: 3px solid black;
-      border-radius: 6px;
-      // padding: 4px 30px;
-      font-size: 1.5rem;
-      text-align: center;
+      border-radius: 8px;
+      padding: 10px;
+      
+      background-color: $tan;
+      
+      h3 {
+        margin: 0;
+        font-size: 2rem;
+      }
     }
   }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      
+      li a {
+        width: 350px;
+        height: 70px;
+        background-color: $tan;
+        margin: 9px;
+        border: 3px solid black;
+        border-radius: 6px;
+        // padding: 4px 30px;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+    }
+  }
+  
 }

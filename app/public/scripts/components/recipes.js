@@ -4,7 +4,7 @@ const recipes = {
   template:`
   <h2>Recipes</h2>
   <section ng-repeat="recipe in $ctrl.recipes">
-    <section class="recipe-card">
+    <section class="card">
       <h3>{{recipe.name}}</h3>
       <p>{{recipe.ingredients}}</p>
       <p>{{recipe.method}}</p>

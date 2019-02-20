@@ -13,5 +13,8 @@ angular
     .when("/recipes", {
       template:`<recipes></recipes>`
     })
+    .when("/test", {
+      template:`<test></test>`
+    })
     .otherwise({redirectTo:"/welcome"})
   })
