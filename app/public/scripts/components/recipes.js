@@ -3,8 +3,8 @@
 const recipes = {
   template:`
   <h2>Recipes</h2>
-  <section ng-repeat="recipe in $ctrl.recipes">
-    <section class="card">
+  <section class="card-deck">
+    <section class="card" ng-repeat="recipe in $ctrl.recipes">
       <h3>{{recipe.name}}</h3>
       <p>{{recipe.ingredients}}</p>
       <p>{{recipe.method}}</p>

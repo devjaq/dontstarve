@@ -9,11 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "body-parser": "^1.18.3",
     "browser-sync": "^2.26.3",
+    "express": "^4.16.4",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "node-sass": "^4.11.0",
+    "request-promise": "^4.2.4",
     "sass": "^1.17.0"
   }
 }

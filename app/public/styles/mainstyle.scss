@@ -5,10 +5,12 @@ $tan: #CBB890;
 
 html {
   box-sizing: border-box;
+  // font-family: 'Shadows Into Light';
+  font-family: 'Schoolbell';
   
   body {
-    background: dimgrey;
-    font-family: 'Oswald';
+    background: #503749;
+    // font-family: 'Oswald';
     
     ul {
       padding: 0;
@@ -16,10 +18,15 @@ html {
     
     a {
       text-decoration: none;
-      color: $reddish;
+      // color: $reddish;
     }
-    
+    .card-deck {
+      display: flex;
+      flex-wrap: wrap;
+    }
     .card {
+      width: 225px;
+      height: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -48,13 +55,14 @@ html {
       align-content: center;
       
       li a {
-        width: 350px;
-        height: 70px;
+        width: 185px;
+        // height: 70px;
+        display: block;
         background-color: $tan;
         margin: 9px;
         border: 3px solid black;
         border-radius: 6px;
-        // padding: 4px 30px;
+        padding: 7px 0;
         font-size: 1.5rem;
         text-align: center;
       }
